@@ -1,0 +1,63 @@
+
+
+/*.adress{
+    text-align: left;
+    color: grey;
+}
+.adress:hover{
+    color: greenyellow;
+}
+
+.name {
+    text-align: left;
+    color:grey
+}
+
+.name:hover{
+    color: greenyellow;
+}    
+
+
+.row {
+    display: block;
+    background-color: black;
+    margin: 5%;
+    padding: 5%;
+    border: 50%;
+    position: relative;
+    
+}
+
+.pic {
+    transform: scale(0.4);
+    cursor: pointer;
+    position: sticky;
+    
+}
+
+.bt{
+    color: grey;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.account{
+    cursor: copy;
+}*/
+.container {
+    margin-top: 7%;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+.card {
+    width: 25%;
+    margin: 0 auto;
+    padding: 1%;
+    box-shadow: 0 0 10px red;
+}
+.name {
+    max-width: 100%;
+}
