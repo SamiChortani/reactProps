@@ -1,11 +1,11 @@
 import React from 'react';
 import "./profile.css"
 
-const ProfilePhoto = ({image}) => {
+const ProfilePhoto = ({children}) => {
   return (
-    
-        <img src={image} alt="PIC" />
-    
+    <>
+        {children}
+        </>
   )
 }
 

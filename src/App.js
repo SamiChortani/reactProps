@@ -15,7 +15,7 @@ const Follow = ()=> alert("You are in")
         <div className="col-md-12">
           <div className="card">
             <div className="card-header">
-            <ProfilePhoto image= {picture} />
+            <ProfilePhoto><img src={picture} alt="PIC"/></ProfilePhoto>
 
             </div>
             <div className="card-body">
